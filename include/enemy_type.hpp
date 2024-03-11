@@ -5,7 +5,7 @@
 
 class EnemyType {
 public:
-    EnemyType(char symbol, Colour colour, int hp, int mv, int sight, int attack, std::string name);
+    EnemyType(char symbol, Colour colour, int hp, int mv, int sight, int attack,std::string name);
 
     char symbol;
     Colour colour;
